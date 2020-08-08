@@ -1,0 +1,51 @@
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+body {
+    font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;//xx
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution {
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+  }
+  //j
+.requst {
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    border-radius: 2rem;
+    padding: .9rem 2.05rem;
+    font-size: .89rem;
+    text-align: center;
+    &:hover {
+        opacity: .5;
+    }
+}
+p {
+  color: hsl(233, 8%, 62%);
+}
+.nav-active {
+  transform: translateY(0) !important;
+}
+
+@keyframes navFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

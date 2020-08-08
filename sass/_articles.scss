@@ -1,0 +1,66 @@
+#last-arti {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  padding: 57px 165px 80px 165px;
+  .choose {
+    h1 {
+      font-weight: 300;
+      font-size: 2.45rem;
+      color: hsl(233, 26%, 24%);
+      letter-spacing: -0.4px;
+      margin-bottom: 27px;
+    }
+  }
+  .artis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    width: 100%;
+    .card {
+      border-radius: 8px;
+      background-color: #FFF;
+      width: 253.5px;
+      .themail {
+        width: 100%;
+        height: 200px;
+        img {
+          border-radius: 8px 8px 0 0;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      .content {
+        padding: 29px 23px 23px 23px;
+        // background-color: green;
+        h6, h5, p {
+          margin: 0;
+        }
+        h6 {
+          font-size: .55rem;
+          letter-spacing: .3px;
+          margin-bottom: 12px;
+        }
+        .title {
+          font-weight: 400;
+          font-size: 1rem;
+          letter-spacing: -0.3px;
+          // margin-top: 12px;//jj
+          text-decoration: none;
+          color: #000;
+          &:hover {
+            color: hsl(158, 28%, 52%); //156, 59%, 49%
+          }
+        }
+        .description {
+          font-size: .8rem;
+          line-height: 18px;
+          margin-top: 10px;
+          letter-spacing: -0.1px;
+        }
+      }
+    }
+  }
+}
