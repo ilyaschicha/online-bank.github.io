@@ -2,6 +2,7 @@ const navToggler = () => {
   const nav = document.querySelector('.nav-items');
   const toggler = document.querySelector('#toogler');
   const togglerImg = document.querySelector('#toogler img');
+  const image = togglerImg.src;
   toogler.addEventListener('click', () => {
     togglerImg.src = (togglerImg.src === image) ? "images/icon-close.svg" : "images/icon-hamburger.svg";
     nav.classList.toggle('nav-active');
